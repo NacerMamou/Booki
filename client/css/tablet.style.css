@@ -66,10 +66,24 @@ body {
     font-size: 1.6vw;
     font-weight: 500;
   }
-  nav ul a:hover {
+  nav ul a::after{
     display: flex;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
     border-top: 0.3vw solid var(--blue-booki);
+    opacity: 1;
+  }
+  nav ul a:hover{
     color: var(--blue-booki);
+    opacity: 1;
+  }
+  nav ul a:hover::after{
+    visibility: visible;
     opacity: 1;
   }
   nav .nav-logo {
@@ -310,7 +324,7 @@ styled here
     width: 100%;
     height: 100%;
   }
-  .heb > .heb-img-large {
+  .heb > .heb-img-small {
     display: flex;
     border-radius: 1.1vw 1.1vw 0 0;
     width: 100%;
@@ -375,7 +389,7 @@ styled here
     border-radius: 1.5vw;
     background-color: white;
   }
-  .hebp > .hebp-img-large {
+  .hebp > .hebp-img-small {
     border-radius: 1.1vw 0 0 1.1vw;
     display: flex;
     flex-direction: column;
@@ -456,7 +470,7 @@ styled here
     width: 100%;
     height: 100%;
   }
-  .slot-link > .slot1 > .slot-link-img-large {
+  .slot-link > .slot1 > .slot-link-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -520,7 +534,7 @@ styled here
     width: 100%;
     border-radius: 1.4vw;
   }
-  .slot2-top-link > .slot2-top > .slot2-top-img-large {
+  .slot2-top-link > .slot2-top > .slot2-top-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -536,7 +550,7 @@ styled here
     font-size: 1.4vw;
     padding-left: 1.5vw;
   }
-  .slot2-bottom-link > .slot2-bottom > .slot2-bottom-img-large {
+  .slot2-bottom-link > .slot2-bottom > .slot2-bottom-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -559,7 +573,7 @@ styled here
     height: 100%;
     border-radius: 1.4vw;
   }
-  .slot-link > .slot3 > .slot-link-img-large {
+  .slot-link > .slot3 > .slot-link-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -627,7 +641,7 @@ styled here
     width: 100%;
     height: 100%;
   }
-  .slot4-top-link > .slot4-top > .slot4-top-img-large {
+  .slot4-top-link > .slot4-top > .slot4-top-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -643,7 +657,7 @@ styled here
     font-size: 1.4vw;
     padding-left: 1.5vw;
   }
-  .slot4-bottom-link > .slot4-bottom > .slot4-bottom-img-large {
+  .slot4-bottom-link > .slot4-bottom > .slot4-bottom-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -708,34 +722,6 @@ styled here
   .fa-star-off {
     color: gainsboro;
   }
-
-  /* Images loading sizes handling */
-  .heb-img-xlarge,
-  .heb-img-small,
-  .heb-img-medium,
-  .hebp-img-xlarge,
-  .hebp-img-small,
-  .hebp-img-medium,
-  .slot-link-img-xlarge,
-  .slot-link-img-small,
-  .slot-link-img-medium,
-  .slot2-bottom-img-xlarge,
-  .slot2-bottom-img-small,
-  .slot2-bottom-img-medium,
-  .slot2-top-img-xlarge,
-  .slot2-top-img-small,
-  .slot2-top-img-medium,
-  .slot4-bottom-img-xlarge,
-  .slot4-bottom-img-small,
-  .slot4-bottom-img-medium,
-  .slot4-top-img-xlarge,
-  .slot4-top-img-small,
-  .slot4-top-img-medium {
-    visibility: hidden;
-    display: flex;
-    width: 0%;
-    height: 0%;
-  }
 }
 
 @media all and (max-width: 768px) and (min-width: 576px) {
@@ -766,10 +752,24 @@ styled here
     opacity: 0.85;
     font-size: 2.1vw;
   }
-  nav ul a:hover {
+  nav ul a::after{
     display: flex;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
     border-top: 0.3vw solid var(--blue-booki);
+    opacity: 1;
+  }
+  nav ul a:hover{
     color: var(--blue-booki);
+    opacity: 1;
+  }
+  nav ul a:hover::after{
+    visibility: visible;
     opacity: 1;
   }
   nav .nav-logo {
@@ -1012,7 +1012,7 @@ styled here
     width: 100%;
     height: 100%;
   }
-  .heb > .heb-img-medium {
+  .heb > .heb-img-small {
     visibility: visible;
     display: flex;
     border-radius: 1.1vw 1.1vw 0 0;
@@ -1079,7 +1079,7 @@ styled here
     border-radius: 1.5vw;
     background-color: white;
   }
-  .hebp > .hebp-img-medium {
+  .hebp > .hebp-img-small {
     border-radius: 1.1vw 0 0 1.1vw;
     display: flex;
     flex-direction: column;
@@ -1160,7 +1160,7 @@ styled here
     width: 100%;
     height: 100%;
   }
-  .slot-link > .slot1 > .slot-link-img-medium {
+  .slot-link > .slot1 > .slot-link-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -1231,7 +1231,7 @@ styled here
     height: 100%;
     border-radius: 1.4vw;
   }
-  .slot2-top-link > .slot2-top > .slot2-top-img-medium {
+  .slot2-top-link > .slot2-top > .slot2-top-img-small {
     border-radius: 1vw 1vw 0 0;
     display: flex;
     width: 100%;
@@ -1247,7 +1247,7 @@ styled here
     border-radius: 0 0 1.4vw 1.4vw;
     font-size: 1.8vw;
   }
-  .slot2-bottom-link > .slot2-bottom > .slot2-bottom-img-medium {
+  .slot2-bottom-link > .slot2-bottom > .slot2-bottom-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -1270,7 +1270,7 @@ styled here
     height: 100%;
     border-radius: 1.4vw;
   }
-  .slot-link > .slot3 > .slot-link-img-medium {
+  .slot-link > .slot3 > .slot-link-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -1337,7 +1337,7 @@ styled here
     width: 100%;
     height: 100%;
   }
-  .slot4-top-link > .slot4-top > .slot4-top-img-medium {
+  .slot4-top-link > .slot4-top > .slot4-top-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -1353,7 +1353,7 @@ styled here
     border-radius: 0 0 1.4vw 1.4vw;
     font-size: 1.8vw;
   }
-  .slot4-bottom-link > .slot4-bottom > .slot4-bottom-img-medium {
+  .slot4-bottom-link > .slot4-bottom > .slot4-bottom-img-small {
     border-radius: 1.4vw 1.4vw 0 0;
     display: flex;
     width: 100%;
@@ -1418,32 +1418,5 @@ styled here
   }
   .fa-star-off {
     color: gainsboro;
-  }
-  /* Images loading sizes handling */
-  .heb-img-xlarge,
-  .heb-img-small,
-  .heb-img-large,
-  .hebp-img-xlarge,
-  .hebp-img-small,
-  .hebp-img-large,
-  .slot-link-img-xlarge,
-  .slot-link-img-small,
-  .slot-link-img-large,
-  .slot2-bottom-img-xlarge,
-  .slot2-bottom-img-small,
-  .slot2-bottom-img-large,
-  .slot2-top-img-xlarge,
-  .slot2-top-img-small,
-  .slot2-top-img-large,
-  .slot4-bottom-img-xlarge,
-  .slot4-bottom-img-small,
-  .slot4-bottom-img-large,
-  .slot4-top-img-xlarge,
-  .slot4-top-img-small,
-  .slot4-top-img-large {
-    visibility: hidden;
-    display: flex;
-    width: 0%;
-    height: 0%;
   }
 }

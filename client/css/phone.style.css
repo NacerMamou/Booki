@@ -94,7 +94,7 @@ nav ul a {
 nav ul a:hover {
   display: flex;
   height: 100%;
-  width: 48%;
+  width: 50%;
   border-bottom: 0.9vw solid var(--blue-booki);
   color: var(--blue-booki);
   opacity: 1;
@@ -314,7 +314,7 @@ styled here
   border-radius: 6vw 6vw 6vw 6vw;
   text-decoration: none;
   color: black;
-  border: 0.85vw solid var(--grey-borders);
+  border: 0.3vw solid var(--grey-borders);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -329,7 +329,7 @@ styled here
 
 .heb-link > .heb {
   background-color: white;
-  padding: 1.3vw;
+  padding: 0.6vw;
   border-radius: 6vw 6vw 6vw 6vw;
   display: flex;
   flex-direction: column;
@@ -373,7 +373,6 @@ styled here
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
   width: 100%;
   height: 116vw;
   margin-bottom: 10vw;
@@ -383,14 +382,12 @@ styled here
   border-radius: 4vw 4vw 4vw 4vw;
   text-decoration: none;
   color: black;
-  border: 0.85vw solid var(--grey-borders);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 32%;
-  margin-bottom: 0vw;
 }
 .hebp-pres > .hebp-link:hover {
   transform: scale(1.04);
@@ -399,7 +396,7 @@ styled here
 .hebp-link > .hebp {
   border-radius: 4vw 4vw 4vw 4vw;
   background-color: white;
-  padding: 1.2vw;
+  padding: 0.75vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -743,33 +740,4 @@ footer p {
 }
 .fa-star-off {
   color: gainsboro;
-}
-
-/* Handling the images loading sizes */
-
-.heb-img-xlarge,
-.heb-img-large,
-.heb-img-medium,
-.hebp-img-xlarge,
-.hebp-img-large,
-.hebp-img-medium,
-.slot-link-img-xlarge,
-.slot-link-img-large,
-.slot-link-img-medium,
-.slot2-bottom-img-xlarge,
-.slot2-bottom-img-large,
-.slot2-bottom-img-medium,
-.slot2-top-img-xlarge,
-.slot2-top-img-large,
-.slot2-top-img-medium, 
-.slot4-bottom-img-xlarge,
-.slot4-bottom-img-large,
-.slot4-bottom-img-medium,
-.slot4-top-img-xlarge,
-.slot4-top-img-large,
-.slot4-top-img-medium{
-  visibility: hidden;
-  display: flex;
-  width: 0%;
-  height: 0%;
 }
