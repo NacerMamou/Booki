@@ -66,7 +66,7 @@ body {
     font-size: 1.6vw;
     font-weight: 500;
   }
-  nav ul a::after{
+  nav ul a::after {
     display: flex;
     visibility: hidden;
     width: 100%;
@@ -74,15 +74,15 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    content: '';
+    content: "";
     border-top: 0.3vw solid var(--blue-booki);
     opacity: 1;
   }
-  nav ul a:hover{
+  nav ul a:hover {
     color: var(--blue-booki);
     opacity: 1;
   }
-  nav ul a:hover::after{
+  nav ul a:hover::after {
     visibility: visible;
     opacity: 1;
   }
@@ -281,10 +281,10 @@ styled here
     border-radius: 1.3vw;
     background-color: var(--grey-background);
   }
-  .hebergement-h1 {
+  .hebergement-h2 {
     display: flex;
     align-items: center;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-weight: 700;
     margin-bottom: 1.5vw;
   }
@@ -352,7 +352,7 @@ styled here
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-weight: 700;
   }
   .populaires > .titlelogo > .pop-start-icon {
@@ -436,7 +436,7 @@ styled here
     margin-bottom: 3.9vw;
     border-radius: 1.4vw;
   }
-  .activities h1 {
+  .activities h2 {
     display: flex;
     margin-bottom: 1.8vw;
     font-size: 2vw;
@@ -752,7 +752,7 @@ styled here
     opacity: 0.85;
     font-size: 2.1vw;
   }
-  nav ul a::after{
+  nav ul a::after {
     display: flex;
     visibility: hidden;
     width: 100%;
@@ -760,15 +760,15 @@ styled here
     position: absolute;
     top: 0;
     left: 0;
-    content: '';
+    content: "";
     border-top: 0.3vw solid var(--blue-booki);
     opacity: 1;
   }
-  nav ul a:hover{
+  nav ul a:hover {
     color: var(--blue-booki);
     opacity: 1;
   }
-  nav ul a:hover::after{
+  nav ul a:hover::after {
     visibility: visible;
     opacity: 1;
   }
@@ -968,7 +968,7 @@ styled here
     border-radius: 1.3vw;
     background-color: var(--grey-background);
   }
-  .hebergement-h1 {
+  .hebergement-h2 {
     display: flex;
     align-items: center;
     font-size: 2.5vw;
@@ -1123,7 +1123,7 @@ styled here
     margin-bottom: 2.5vw;
     border-radius: 1.4vw;
   }
-  .activities h1 {
+  .activities h2 {
     display: flex;
     width: 100%;
     margin-bottom: 2vw;

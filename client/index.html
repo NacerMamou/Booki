@@ -2,9 +2,9 @@
         #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2
     -->
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <meta charset="utf8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="./css/desktop.style.css"
@@ -41,12 +41,15 @@
     <header>
       <nav>
         <div class="nav-logo">
-          <img class="logo" src="images/logo/Booki.png" />
+          <img class="logo" src="images/logo/Booki.png" alt="homepage" />
         </div>
-
         <ul class="nav-ul">
-          <a href="#hebergements">Hébérgements</a>
-          <a href="#activités">Activités</a>
+          <li>
+            <a href="#hebergements">Hébérgements</a>
+          </li>
+          <li>
+            <a href="#activités">Activités</a>
+          </li>
         </ul>
       </nav>
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -91,10 +94,10 @@
       </p>
     </section>
 
-    <section class="presentation">
-      <article class="hebergement" id="hebergements">
-        <div class="hebergement-h1">
-          <h1>Hébergements à Marseille</h1>
+    <div class="presentation">
+      <section class="hebergement" id="hebergements">
+        <div class="hebergement-h2">
+          <h2>Hébergements à Marseille</h2>
         </div>
 
         <!--Here Hotel presentation 6 boxes-->
@@ -105,10 +108,10 @@
             href="https://www.marseille-tourisme.com/offres/residence-la-canebiere-vacances-leo-lagrange-marseille-1er-fr-2916021/"
           >
             <div class="heb">
-
               <img
                 class="heb-img-small"
                 src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="image de l'ubèrge la Cannebière"
               />
               <div class="heb-infos">
                 <h3>Aubèrge la Cannebière</h3>
@@ -133,6 +136,7 @@
               <img
                 class="heb-img-small"
                 src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                alt="image de l'hotel du port"
               />
               <div class="heb-infos">
                 <h3>Hotel du port</h3>
@@ -154,6 +158,7 @@
               <img
                 class="heb-img-small"
                 src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                alt="image de l'hotel les mouettes"
               />
               <div class="heb-infos">
                 <h3>Hotel les mouettes</h3>
@@ -175,6 +180,7 @@
               <img
                 class="heb-img-small"
                 src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="image de l'hotel de la mer"
               />
               <div class="heb-infos">
                 <h3>Hotel de la mer</h3>
@@ -196,6 +202,7 @@
               <img
                 class="heb-img-small"
                 src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                alt="image de l'aubèrge Le panier"
               />
               <div class="heb-infos">
                 <h3>Aubèrge Le panier</h3>
@@ -217,8 +224,8 @@
               <img
                 class="heb-img-small"
                 src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                alt="image de l'hotel chez Amina"
               />
-
               <div class="heb-infos">
                 <h3>Hotel chez Amina</h3>
                 <p>Nuit à partir de 96<span class="money-symbol">€</span></p>
@@ -237,11 +244,11 @@
         <div class="hebergement-h3">
           <h3>Afficher plus</h3>
         </div>
-      </article>
+      </section>
 
       <aside class="populaires">
         <div class="titlelogo">
-          <h1 class="populaires-h1">Les plus populaires</h1>
+          <h2 class="populaires-h2">Les plus populaires</h2>
           <i class="fa-solid fa-star pop-start-icon" style="color: black"></i>
         </div>
 
@@ -252,6 +259,7 @@
               <img
                 class="hebp-img-small"
                 src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                alt="image de l'hotel populaire Le soleil du matin"
               />
               <div class="hebp-infos">
                 <h3>Hotel Le soleil du matin</h3>
@@ -275,6 +283,7 @@
               <img
                 class="hebp-img-small"
                 src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                alt="image de l'auberge populaire au coeur de l'eau chambres d'hotes"
               />
               <div class="hebp-infos">
                 <h3>Au coeur de l'eau chambres d'hotes</h3>
@@ -298,6 +307,7 @@
               <img
                 class="hebp-img-small"
                 src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                alt="image de l'hotel populaire tout bleu et Blanc"
               />
               <div class="hebp-infos">
                 <h3>Hotel Tout bleu et Blanc</h3>
@@ -316,16 +326,17 @@
           </a>
         </div>
       </aside>
-    </section>
+    </div>
 
     <section class="activities" id="activités">
-      <h1>Activités à Marseille</h1>
+      <h2>Activités à Marseille</h2>
       <article class="activities-presentation">
         <a class="slot-link" href="#">
           <div class="slot1">
             <img
               class="slot-link-img-small"
               src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+              alt="image du vieux port"
             />
             <h3 class="slot1-h3">Vieux Port</h3>
           </div>
@@ -337,6 +348,7 @@
               <img
                 class="slot2-top-img-small"
                 src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                alt="image du fort de pomègue"
               />
               <h3 class="top-h3">Fort de Pomègues</h3>
             </div>
@@ -346,6 +358,7 @@
               <img
                 class="slot2-bottom-img-small"
                 src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                alt="image des Îles du Frioul "
               />
               <h3 class="bottom-h3">Îles du Frioul</h3>
             </div>
@@ -357,6 +370,7 @@
             <img
               class="slot-link-img-small"
               src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+              alt="image du Parc National des Calanques"
             />
             <h3 class="slot3-h3">Parc National des Calanques</h3>
           </div>
@@ -368,6 +382,7 @@
               <img
                 class="slot4-top-img-small"
                 src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt="image de Notre-Damme-De-La-Garde"
               />
               <h3 class="top-h3">Notre-Damme-De-La-Garde</h3>
             </div>
@@ -378,6 +393,7 @@
               <img
                 class="slot4-bottom-img-small"
                 src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                alt="image du Parc Longchamp"
               />
               <h3 class="bottom-h3">Parc Longchamp</h3>
             </div>
