@@ -14,13 +14,11 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
 }
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 /* The submit button icon will be hidden for desktops and tablets */
