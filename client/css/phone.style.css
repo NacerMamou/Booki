@@ -112,6 +112,9 @@ nav ul a {
   color: black;
   opacity: 0.8;
 }
+.link-right:hover{
+  color: var(--blue-booki);
+}
 .link-right::after{
   content: "";
   position: absolute;
@@ -122,6 +125,10 @@ nav ul a {
   color: var(--blue-booki);
   opacity: 1;
   border-bottom: 1.3vw solid var(--grey-background);
+}
+.link-right:hover::after{
+  opacity: 1;
+  border-bottom: 1.3vw solid var(--blue-booki)
 }
 /* nav ul a::after {
   display: flex;
@@ -229,7 +236,6 @@ are styled here
 .submit-button-icon {
   visibility: visible;
   display: flex !important;
-  height: 100%;
   align-items: center;
   justify-content: center;
   background-color: var(--blue-booki);
